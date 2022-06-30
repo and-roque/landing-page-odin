@@ -28,4 +28,16 @@ ul {
 
 .container-one {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.item {
+    display: flex;
+    flex: 1;
+}
+
+.subitem {
+    flex-direction: column;
 }
