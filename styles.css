@@ -1,6 +1,7 @@
 body {
     font-family: roboto, sans-serif, sans-serif;
     display: flex;
+    flex-direction: column;
     margin: 0 150px;
 }
 
@@ -22,4 +23,8 @@ ul {
     flex-direction: row;
     list-style: none;
     gap: 30px;
+}
+
+.container-one {
+    display: flex;
 }
