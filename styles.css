@@ -13,6 +13,10 @@ body {
     margin-bottom: 150px;
 }
 
+.main-text {
+    color: #F9FAF8;
+}
+
 .logo {
     display: flex;
     font-size: x-large;
@@ -36,8 +40,13 @@ ul {
 .item {
     display: flex;
     flex: 1;
+    gap: 10px;
 }
 
 .subitem {
     flex-direction: column;
+}
+
+button {
+    background-color: #3882F6;
 }
