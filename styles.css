@@ -1,4 +1,25 @@
 body {
     font-family: roboto, sans-serif, sans-serif;
     display: flex;
+    margin: 0 150px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+}
+
+.logo {
+    display: flex;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 30px;
 }
