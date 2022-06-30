@@ -17,13 +17,12 @@ body {
     margin: 0 200px;
     margin-bottom: 140px;
     padding-top: 5px;
-}
-.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex: 1;
+    flex: auto;
 }
+
 
 .main-text {
     color: #F9FAF8;
@@ -49,16 +48,14 @@ ul {
 }
 
 .container-one {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 40px;
+    gap: 30px;
 }
 
 .item {
+    max-width: 450px;
     display: flex;
-    flex: 1;
-    gap: 10px;
+    flex: auto;
+    gap: 15px;
 }
 
 .subitem {
@@ -77,4 +74,10 @@ button {
 .title {
     font-size: 48px;
     font-weight: bolder;
+}
+
+.item img {
+    width: 450px;
+    margin: 0;
+    padding: 0;
 }
