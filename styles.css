@@ -16,6 +16,10 @@ body {
 .section-two {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    gap: 30px;
 }
 
 .header, .container-one {
@@ -86,3 +90,28 @@ button {
     margin: 0;
     padding: 0;
 }
+
+.ilu {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    width: 150px;
+    gap: 10px;
+    text-align: center;
+}
+
+.ilu img {
+    object-fit: cover;
+    width: 150px;
+    height: 150px;
+    margin: 0;
+    padding: 0;
+    border-radius: 10px;
+}
+
+.title-two {
+    font-size: 38px;
+    font-weight: bold;
+}
+
