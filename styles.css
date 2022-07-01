@@ -13,7 +13,7 @@ body {
     background-color: #1F2937;
 }
 
-.section-two .section-three {
+.section-two, .section-three {
     display: flex;
     flex-direction: column;
     justify-content: center;
