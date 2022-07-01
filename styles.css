@@ -63,8 +63,12 @@ body {
 
 .logo {
     display: flex;
-    font-size: 24px;
-    font-weight: bold;
+    object-fit: cover;
+    /*font-size: 24px;
+    font-weight: bold;*/
+    width: 130px;
+    height: 130px;
+    padding: 10px;
 }
 
 ul {
