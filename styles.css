@@ -108,6 +108,11 @@ button {
     border-radius: 10px;
 }
 
+button:hover {
+    background-color: #E5E7EB;
+    color: #1F2937;
+}
+
 .wborder{
     border: 2px solid #E5E7EB;
 }
