@@ -18,9 +18,15 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 50px;
+    padding: 50px;
     gap: 30px;
     margin-bottom: 100px;
+}
+
+.section-three {
+    background-color: #E5E7EB;
+    padding-top: 150px;
+    padding-bottom: 150px;
 }
 
 .header, .container-one {
@@ -32,7 +38,6 @@ body {
     align-items: center;
     flex: auto;
 }
-
 
 .main-text {
     color: #F9FAF8;
@@ -116,3 +121,12 @@ button {
     font-weight: bold;
 }
 
+.quote {
+    display: flex;
+    width: 500px;
+}
+.author {
+    width: 500px;
+    display: flex;
+    justify-content: flex-end;
+}
