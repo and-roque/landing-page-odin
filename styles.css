@@ -162,3 +162,13 @@ button {
     background-color: #1F2937;
     height: 75px;
 }
+
+.text {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.block-four .text .main-text{
+    font-size: 24px;
+    font-weight: 600;
+}
