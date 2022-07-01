@@ -1,5 +1,11 @@
 # landing-page-odin
 
+This website is challenge from The Odin Project.
+
+In my approach I created a concept cinema community called "ODD". This website pretends to be the main webpage where some contents are revealed and where is possiblie to join the community's forum.  
+
+I used "Trailor Brands" website to create the community's logo. 
+
 Credits:
     -Images: 
         Aleksandar Pasaric: https://www.pexels.com/pt-br/foto/sinalizacao-iluminada-a-noite-2484848/
